@@ -1,0 +1,421 @@
+body {
+    background-color: white;
+    font-family: 'Source code pro' , Calibri , serif ;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* barre de navigation */
+.navbar{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    border-bottom:5px solid #ef233c;
+    margin-left: 150px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #083444;
+    font-weight: bold;
+
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 5px;
+    color: #fff;
+}
+
+nav li  img {
+    width: 120px;
+ 
+}
+
+nav li:hover a {
+    padding-top: 15px ;
+   
+}
+
+.btnsearch {
+    background-color: #ef233c;
+    /* border-radius:  100% ; */
+}
+
+
+
+
+
+/* section #abc */
+.abc {
+    background-color: #ef233c;
+    color: white;
+    border-radius: 30px;
+    border: 1px black solid;
+    cursor: pointer;
+    margin: 5px;
+    
+    
+}
+
+div li  {
+    list-style-type: none;
+    float: left;
+    border: none;
+}
+
+.listabc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 170px;
+   
+
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.content {
+    min-height: 800px;
+    /* background: #ABABAB; */
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 70%;
+    margin: 3px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside {
+    /* background: #C9C9C9; */
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 15%;
+    min-width: 150px;
+    padding: 3px;
+    margin: 3px;
+}
+
+
+/* section dimanche */
+.dimanche{
+
+    width: auto;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 150px;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+.box {
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+   justify-content:space-evenly;
+   font-weight: bold;
+   align-items: stretch;
+    
+    
+}
+
+
+
+.d5{
+   
+    background-color: black;
+    color: #fff;
+    border-left:5px solid #ef233c;
+    height: 50px;
+    width: 600px;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.imgsite{
+   float: left;
+}
+.imgep {
+    border: 2px solid #ef233c;
+    box-shadow: 20px 5px 5px  gray;
+    border-radius: 20px;
+
+
+}
+
+img.imgep a:hover {
+    padding-bottom: 15px ;
+}
+
+
+
+
+/* section samedi */
+.samedi{
+    
+    width: auto;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 150px;
+    margin-right: 400px;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.box2 {
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   font-weight: bold;
+}
+
+p .samedi {
+    font-weight: bold;
+}
+
+.cardkakkou p{
+    margin-right: 30px;
+   
+    
+    text-align: center;
+}
+
+
+
+/* section donateur  */
+
+.vignettes  {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+
+
+}
+
+.flotte {
+    float: left;
+    clear: both;
+    margin-right: 10px  ;
+}
+
+
+
+.donateur {
+    float: right;
+    margin-top: 200px;
+    margin-right: 0px;
+   
+}
+
+.titre {
+    background-color: black;
+    color: #fff;
+    border-left:5px solid #ef233c;
+    height: 50px;
+    width: 950px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+/* section top 10 */
+
+.top10 {
+    
+    float: right;
+    margin-top: 20px;
+    margin-left: 970px;
+    margin-right: 0px;
+    /* position: absolute; */
+}
+
+.titre {
+    background-color: black;
+    color: #fff;
+    border-left:5px solid #ef233c;
+    height: 50px;
+    width: 230px;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+/* section discord */
+
+.discord {
+    float: right;
+    margin-top: 1600px;
+    margin-left: 970px;
+   
+    /* position: absolute; */
+} 
+
+.imgdiscord {
+    border-radius: 20px;
+}
+
+
+
+/* section nombre page */
+
+.n123 {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px black solid;
+    cursor: pointer;
+    
+}
+
+div li  {
+    list-style-type: none;
+    float: left;
+   
+    
+}
+
+a button:hover {
+   color: #ef233c;
+}
+
+
+
+
+.list123{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    position: absolute;
+    margin-top: 3100px;
+    margin-left: 450px;
+}
+
+
+
+
+/* footer */
+footer {
+    display: flex;
+    width: 100%;
+    margin-top: 4000;
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+
+}
+
+.disclaimer {
+    background-color: black;
+    color: #fff;
+    border-left:5px solid #ef233c;
+    margin-left: 60px;
+    margin-right: 60px ;
+    height: 50px;
+    width: 230px;
+    
+
+}
+
+.paradisclaimer{
+    color: #ef233c;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+.titrecontactez {
+    background-color: black;
+    color: #fff;
+    border-left:5px solid #ef233c;
+}
+
+.email {
+    color: #fff;
+}
+
+
+/* .contactelogo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+   
+} */
+.logo {
+    width: 15px;
+    height: 15px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.aucundroit {
+    color: #fff;
+    margin-left: 550px;
+}
+
+.dmca {
+    color: #ef233c;
+    margin-left: 620px;
+}
+
+@media screen and (max-width: 640px) {
+
+    #flexContainer {
+        /* Shorthand property specifying flex-direction and flex-wrap */
+        flex-direction: column;
+    }
+
+    header {
+        min-height: 75px;
+    }
+
+    .content {
+        /* Specifying the order so the nav appears as the third item in the flex container */
+        min-height: 725px;
+        order: 2;
+    }
+
+    aside {
+        min-height: 50px;
+        order: 1;
+    }
+
+    footer {
+        min-height: 25px;
+    }
+}
